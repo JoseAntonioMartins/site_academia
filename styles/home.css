@@ -1,0 +1,28 @@
+nav {
+    background-color: #b90000; 
+    display: flex;
+    justify-content: space-between;   
+}
+
+nav ul {
+    list-style: none; 
+    display: flex;
+    align-items: center;
+
+}
+nav img{
+    margin-left: 20px;
+}
+nav ul li {
+    margin-right:  25px;
+    font-size: 20px;
+    color: white;
+}
+nav ul li button{
+    width: 150px;
+    color: red;
+    border-radius: 999px;
+    border: 5px solid white;
+    font-size: 18px;
+    height: 50px;
+}
