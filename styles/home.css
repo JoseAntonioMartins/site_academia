@@ -1,7 +1,11 @@
 nav {
     background-color: #b90000; 
     display: flex;
-    justify-content: space-between;   
+    justify-content: space-between;
+    position: fixed;
+    height: 10vh;
+    z-index: 999;
+    width: 100%;  
 }
 
 nav ul {
@@ -20,9 +24,50 @@ nav ul li {
 }
 nav ul li button{
     width: 150px;
-    color: red;
-    border-radius: 999px;
+    color: #b90000;
+    border-radius: 999vh;
     border: 5px solid white;
     font-size: 18px;
     height: 50px;
+}
+nav ul li button:hover{
+    background-color: #b90000;
+    color: white;
+    border: 1px solid white;
+    transition: 0.05s;
+}
+.hero{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./../assets/hero.jpg);
+    background-size: cover;
+}
+.hero .text-content{
+    color: white;
+    text-align: center;  
+}
+.hero .text-content h1{
+    font-size: 70px;
+    margin-bottom: 15px
+}
+.hero .text-content h3{
+    font-size: 35px;
+    margin-bottom: 15px;  
+}
+.hero .text-content button{
+    width: 250px;
+    background-color: #b90000;
+    color: white;
+    border-radius: 90vh;
+    font-size: 18px;
+    height: 50px;
+    border: 1px solid #b90000;
+}
+.hero .text-content button:hover{
+    background-color: white;
+    color: #b90000;
+    border: 1px solid white;
+    transition: 0.05s;
 }
