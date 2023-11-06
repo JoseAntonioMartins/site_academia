@@ -91,30 +91,28 @@ nav ul li button:hover {
 }
 
 .beneficios .item {
-    margin-top: 12%;
+    margin-top: 40px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     width: 90%;
 }
 
-.beneficios .item.itemPhoto {
+.beneficios .item .itemPhoto {
     display: flex;
     justify-content: left;
-    margin-top: 90px;
 }
 
 .beneficios .item .itemPhoto .imgItem {
-    width: 90%;
-    height: auto;
+    width: 300px;
+    height: 400px;
 }
 
 .beneficios .item .item-text {
     display: flex;
-    flex-direction: column;
+    flex-direction: columm;
     justify-content: right;
-    width: 50%;
-    margin-bottom: 30px;
+    width: 90%;
     font-size: 18px;
     word-spacing: 4px;
     line-height: 30px;
@@ -123,10 +121,10 @@ nav ul li button:hover {
 .beneficios .item .item-text h3 {
     color: #b90000;
     font-size: 35px;
-    font-weight: bold;
+    font-weight: 600;
+    margin-top: 30px;
     margin-bottom: 30px;
     font-family: "Verdana";
-    justify-content: right;
 }
 
 .beneficios .item .itemPhoto2 {
@@ -191,4 +189,73 @@ nav ul li button:hover {
     margin-top: 35px;
     font-family: "Verdana";
     justify-content: right;
+}
+
+.testimonial {
+    margin-top: 12%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 90%;
+}
+
+.testimonial .history {
+    margin-top: 12%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 90%;
+}
+
+.clients {
+    height: 90vh;
+    background-image: lenear-gradient(o top, rgba(185, 0, 0, 0.4), rgba(255, 255, 255, 1));
+}
+
+.clients .text {
+    text-align: center;
+}
+
+.clients .text h2 {
+
+    font-size: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.clients .text p {
+    font-size: 1.1rem;
+}
+
+.clients .containerCards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 8px 50px 0px 50px;
+}
+
+.clients .containerCards .card {
+    display: flax;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px 20px 5px 20px;
+    box-shadow: 2px 2px 6px 2px rgb(0, 0, 0.4);
+    height: 50vh;
+    width: 25%;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.clients .containerCards .card h3 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    font-weight: 3rem;
+    color: #b90000;
+
+}
+
+.clients .containerCards .card q {
+    font-size: 0.7rem;
+    line-height: 2rem;
+
 }
