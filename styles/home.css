@@ -1,28 +1,31 @@
 nav {
-    background-color: #b90000; 
+    background-color: #b90000;
     display: flex;
     justify-content: space-between;
     position: fixed;
     height: 10vh;
     z-index: 999;
-    width: 100%;  
+    width: 100%;
 }
 
 nav ul {
-    list-style: none; 
+    list-style: none;
     display: flex;
     align-items: center;
 
 }
-nav img{
+
+nav img {
     margin-left: 20px;
 }
+
 nav ul li {
-    margin-right:  25px;
+    margin-right: 25px;
     font-size: 20px;
     color: white;
 }
-nav ul li button{
+
+nav ul li button {
     width: 150px;
     color: #b90000;
     border-radius: 999vh;
@@ -30,13 +33,15 @@ nav ul li button{
     font-size: 18px;
     height: 50px;
 }
-nav ul li button:hover{
+
+nav ul li button:hover {
     background-color: #b90000;
     color: white;
     border: 1px solid white;
     transition: 0.05s;
 }
-.hero{
+
+.hero {
     height: 90vh;
     display: flex;
     align-items: center;
@@ -44,19 +49,23 @@ nav ul li button:hover{
     background-image: url(./../assets/hero.jpg);
     background-size: cover;
 }
-.hero .text-content{
+
+.hero .text-content {
     color: white;
-    text-align: center;  
+    text-align: center;
 }
-.hero .text-content h1{
+
+.hero .text-content h1 {
     font-size: 70px;
     margin-bottom: 15px
 }
-.hero .text-content h3{
+
+.hero .text-content h3 {
     font-size: 35px;
-    margin-bottom: 15px;  
+    margin-bottom: 15px;
 }
-.hero .text-content button{
+
+.hero .text-content button {
     width: 250px;
     background-color: #b90000;
     color: white;
@@ -65,9 +74,121 @@ nav ul li button:hover{
     height: 50px;
     border: 1px solid #b90000;
 }
-.hero .text-content button:hover{
+
+.hero .text-content button:hover {
     background-color: white;
     color: #b90000;
     border: 1px solid white;
     transition: 0.05s;
+}
+
+.beneficios h2 {
+    color: rgba(31, 30, 30, 0.75);
+    font-size: 45px;
+    font-weight: bold;
+    font-family: "Verdana";
+    margin-top: 8%;
+}
+
+.beneficios .item {
+    margin-top: 12%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 90%;
+}
+
+.beneficios .item.itemPhoto {
+    display: flex;
+    justify-content: left;
+    margin-top: 90px;
+}
+
+.beneficios .item .itemPhoto .imgItem {
+    width: 90%;
+    height: auto;
+}
+
+.beneficios .item .item-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    width: 50%;
+    margin-bottom: 30px;
+    font-size: 18px;
+    word-spacing: 4px;
+    line-height: 30px;
+}
+
+.beneficios .item .item-text h3 {
+    color: #b90000;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-family: "Verdana";
+    justify-content: right;
+}
+
+.beneficios .item .itemPhoto2 {
+    display: flex;
+    justify-content: right;
+    margin-top: 30%;
+}
+
+.beneficios .item .itemPhoto2 .imgItem2 {
+    width: 400px;
+    height: 400px;
+}
+
+.beneficios .item .item-text2 {
+    margin-top: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 50%;
+    font-size: 18px;
+    word-spacing: 4px;
+    line-height: 30px;
+    position: absolute;
+}
+
+.beneficios .item .item-text2 h3 {
+    color: #b90000;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 35px;
+    font-family: "Verdana";
+    justify-content: left;
+}
+
+.beneficios .item .itemPhoto3 {
+    display: flex;
+    justify-content: left;
+    margin-top: 75%;
+}
+
+.beneficios .item .itemPhoto3 .imgItem3 {
+    width: 200px;
+    height: 300;
+}
+
+.beneficios .item .item-text3 {
+    margin-top: 65%;
+    display: inline;
+    flex-direction: column;
+    justify-content: right;
+    width: 50%;
+    font-size: 18px;
+    word-spacing: 4px;
+    line-height: 30px;
+    position: absolute;
+}
+
+.beneficios .item .item-text3 h3 {
+    color: #b90000;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 35px;
+    font-family: "Verdana";
+    justify-content: right;
 }
