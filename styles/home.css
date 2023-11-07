@@ -30,7 +30,7 @@ nav ul li button {
     color: #b90000;
     border-radius: 999vh;
     border: 5px solid white;
-    font-size: 18px;
+    font-size: 22px;
     height: 50px;
 }
 
@@ -42,7 +42,7 @@ nav ul li button:hover {
 }
 
 .hero {
-    height: 90vh;
+    height: 130vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -56,7 +56,7 @@ nav ul li button:hover {
 }
 
 .hero .text-content h1 {
-    font-size: 70px;
+    font-size: 80px;
     margin-bottom: 15px
 }
 
@@ -70,7 +70,7 @@ nav ul li button:hover {
     background-color: #b90000;
     color: white;
     border-radius: 90vh;
-    font-size: 18px;
+    font-size: 20px;
     height: 50px;
     border: 1px solid #b90000;
 }
@@ -84,18 +84,18 @@ nav ul li button:hover {
 
 .beneficios h2 {
     color: rgba(31, 30, 30, 0.75);
-    font-size: 45px;
+    font-size: 55px;
     font-weight: bold;
     font-family: "Verdana";
-    margin-top: 8%;
+    margin-top: 5%;
 }
 
 .beneficios .item {
-    margin-top: 40px;
+    margin-top: 20vh;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    width: 90%;
+    width: 80%;
 }
 
 .beneficios .item .itemPhoto {
@@ -104,15 +104,16 @@ nav ul li button:hover {
 }
 
 .beneficios .item .itemPhoto .imgItem {
-    width: 300px;
-    height: 400px;
+    width: 60vh;
+    height: auto;
 }
 
 .beneficios .item .item-text {
     display: flex;
-    flex-direction: columm;
+    flex-direction: column;
+    text-align: center;
     justify-content: right;
-    width: 90%;
+    width: 60%;
     font-size: 18px;
     word-spacing: 4px;
     line-height: 30px;
@@ -120,96 +121,97 @@ nav ul li button:hover {
 
 .beneficios .item .item-text h3 {
     color: #b90000;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 600;
     margin-top: 30px;
     margin-bottom: 30px;
     font-family: "Verdana";
 }
 
-.beneficios .item .itemPhoto2 {
+/*--------------*/
+.beneficios .item2 {
+    margin-top: 15vh;
     display: flex;
-    justify-content: right;
-    margin-top: 30%;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    width: 100%;
 }
 
-.beneficios .item .itemPhoto2 .imgItem2 {
+.beneficios .item2 .itemPhoto2 {
+    margin-right: 5%;
+    display: flex;
+    justify-content: right;
+
+}
+
+.beneficios .item2 .itemPhoto2 .imgItem2 {
     width: 400px;
+    height: 300px;
+}
+
+.beneficios .item2 .item-text2 {
+    flex-direction: column;
+    text-align: center;
+    justify-content: left;
+    width: 50%;
+    font-size: 18px;
+    word-spacing: 6px;
+    line-height: 35px;
+    padding: 5vh;
+}
+
+.beneficios .item2 .item-text2 h3 {
+    color: #b90000;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    font-family: "Verdana";
+    height: 30px;
+}
+
+/*------------*/
+.beneficios .item3 {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+}
+
+.beneficios .item3 .itemPhoto3 {
+    display: flex;
+    justify-content: left;
+    margin: 20vh;
+}
+
+.beneficios .item3 .itemPhoto3 .imgItem3 {
+    width: 300px;
     height: 400px;
 }
 
-.beneficios .item .item-text2 {
-    margin-top: 35%;
+.beneficios .item3 .item-text3 {
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    justify-content: center;
     width: 50%;
     font-size: 18px;
     word-spacing: 4px;
     line-height: 30px;
-    position: absolute;
+    padding: 15vh;
 }
 
-.beneficios .item .item-text2 h3 {
+.beneficios .item3 .item-text3 h3 {
     color: #b90000;
-    font-size: 35px;
-    font-weight: bold;
-    margin-top: 35px;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
     font-family: "Verdana";
-    justify-content: left;
-}
-
-.beneficios .item .itemPhoto3 {
-    display: flex;
-    justify-content: left;
-    margin-top: 75%;
-}
-
-.beneficios .item .itemPhoto3 .imgItem3 {
-    width: 200px;
-    height: 300;
-}
-
-.beneficios .item .item-text3 {
-    margin-top: 65%;
-    display: inline;
-    flex-direction: column;
-    justify-content: right;
-    width: 50%;
-    font-size: 18px;
-    word-spacing: 4px;
-    line-height: 30px;
-    position: absolute;
-}
-
-.beneficios .item .item-text3 h3 {
-    color: #b90000;
-    font-size: 35px;
-    font-weight: bold;
-    margin-top: 35px;
-    font-family: "Verdana";
-    justify-content: right;
-}
-
-.testimonial {
-    margin-top: 12%;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    width: 90%;
-}
-
-.testimonial .history {
-    margin-top: 12%;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    width: 90%;
+    height: 30px;
 }
 
 .clients {
     height: 90vh;
-    background-image: lenear-gradient(o top, rgba(185, 0, 0, 0.4), rgba(255, 255, 255, 1));
+    background-image: linear-gradient(to top, rgba(185, 0, 0, 0.4), rgba(255, 255, 255, 1));
 }
 
 .clients .text {
@@ -227,20 +229,22 @@ nav ul li button:hover {
     font-size: 1.1rem;
 }
 
+/*-----------------------*/
 .clients .containerCards {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    margin-top: 30px;
-    padding: 8px 50px 0px 50px;
+    margin-top: 40px;
+    padding: 0px 50px 0px 50px; 
 }
 
 .clients .containerCards .card {
-    display: flax;
+    display: flex;
     flex-direction: column;
     background-color: white;
     padding: 10px 20px 5px 20px;
     box-shadow: 2px 2px 6px 2px rgb(0, 0, 0.4);
-    height: 50vh;
+    height: 40vh;
     width: 25%;
     border-radius: 10px;
     text-align: left;
