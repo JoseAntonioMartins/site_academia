@@ -210,56 +210,137 @@ nav ul li button:hover {
 }
 
 .clients {
-    height: 90vh;
+    min-width: 90vh;
+    width: 100%;
     background-image: linear-gradient(to top, rgba(185, 0, 0, 0.4), rgba(255, 255, 255, 1));
 }
 
 .clients .text {
-    text-align: center;
+    text-align: left;
 }
 
 .clients .text h2 {
-
+    font-weight:bolder;
     font-size: 3rem;
     margin-top: 5rem;
     margin-bottom: 2rem;
 }
 
 .clients .text p {
-    font-size: 1.1rem;
+    font-size: 6rem;
 }
 
 /*-----------------------*/
 .clients .containerCards {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     margin-top: 40px;
     padding: 0px 50px 0px 50px; 
+}
+
+.clients .containerCards .left{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-right: 20px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.clients .containerCards .left .vertical{
+    margin-top: 20px;
+    width: 300px;
+    height: 500px;
+    margin-right: 75px;
+}
+
+.clients .containerCards .rigth{
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.clients .containerCards .rigth .horizontal{
+    width: 400px;
+    height: 280px;
+}
+
+.clients .containerCards .rigth .retangular{
+    margin-top: 20px;
+    width: 330px;
+    height: 250px;
 }
 
 .clients .containerCards .card {
     display: flex;
     flex-direction: column;
     background-color: white;
-    padding: 10px 20px 5px 20px;
+    padding: 30px 20px 5px 30px;
     box-shadow: 2px 2px 6px 2px rgb(0, 0, 0.4);
-    height: 40vh;
-    width: 25%;
+    min-width: 200px;
     border-radius: 10px;
     text-align: left;
+}
+
+.clients .containerCards .card .cardContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.clients .containerCards .card .cardContent .person .image {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 100px;
+}
+
+.clients .containerCards .card .cardContent .person .text-content {
+    margin-left: 40px;
+}
+
+.clients .containerCards .card .cardContent .person .text-content h4 {
+    font-size:1.3rem;
+    font-weight: bold;
+}
+
+.clients .containerCards .card .cardContent .person .text-content span {
+    font-size: 0.8rem;
+    color: grey;
+    
+}
+
+.clients .containerCards .card .cardContent .person {
+    display: flex;
+    align-items: center;
+    padding: 30px;
 }
 
 .clients .containerCards .card h3 {
     font-size: 2rem;
     margin-bottom: 1.5rem;
-    font-weight: 3rem;
+    font-weight: bolder;
     color: #b90000;
-
 }
 
 .clients .containerCards .card q {
-    font-size: 0.7rem;
-    line-height: 2rem;
+    font-size: 1rem;
+    line-height: 1.7rem;
+    position: relative;
+    padding-left: 30px;
+}
 
+.clients .containerCards .card q::before {
+    content: "''";
+    font-family: "ABeeZee", serif;
+    font-size: italic;
+    font-size: 5rem;
+    position: absolute ;
+    left: -18px;
+    top: 3px;
+    color: rgba(185, 0, 0, 0.4)
 }
